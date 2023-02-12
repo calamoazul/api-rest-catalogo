@@ -99,6 +99,17 @@ let controller = {
 
         } )
 
+    },
+    getBook: (req, res) => {
+        return res.status(200).send({
+            status: "success"
+      })
+    },
+    update: (req, res) => {
+
+    },
+    delete: (req, res) => {
+
     }
 }
 
